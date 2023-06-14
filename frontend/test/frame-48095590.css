@@ -1,0 +1,154 @@
+.vector-icon6 {
+  width: 27px;
+  height: 27px;
+}
+.medics6,
+.vector-icon6 {
+  position: relative;
+}
+.vector-parent5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.login1 {
+  position: relative;
+  font-weight: 600;
+}
+.group-child1 {
+  position: absolute;
+  height: 36.6%;
+  width: 100%;
+  top: 47.06%;
+  right: 0;
+  bottom: 16.34%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.the-password-you {
+  position: absolute;
+  top: 90.2%;
+  left: 0;
+  line-height: 135%;
+  font-weight: 500;
+}
+.rounded-rectangle1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+}
+.jamesschleifergmailcom1 {
+  position: absolute;
+  top: 28.57%;
+  left: 17.13%;
+  line-height: 150%;
+  font-weight: 500;
+}
+.icon-email1 {
+  position: absolute;
+  width: 6.12%;
+  top: calc(50% - 10px);
+  right: 86.54%;
+  left: 7.34%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 20px;
+}
+.rounded-rectangle-parent {
+  position: absolute;
+  height: 36.6%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 63.4%;
+  left: 0;
+  font-size: var(--ios-medium-body-size);
+  color: var(--color-gray-200);
+}
+.group-parent7 {
+  position: relative;
+  width: 327px;
+  height: 153px;
+}
+.group-child2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-13xl);
+  background-color: rgba(9, 87, 222, 0.5);
+  width: 327px;
+  height: 56px;
+}
+.button2 {
+  position: absolute;
+  top: 28.57%;
+  left: 43.43%;
+  line-height: 150%;
+  font-weight: 600;
+}
+.rectangle-parent1 {
+  position: relative;
+  width: 327px;
+  height: 56px;
+  text-align: center;
+  font-size: var(--ios-medium-body-size);
+  color: var(--ios-ffffff);
+}
+.group-parent6 {
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  font-size: 11px;
+  color: var(--color-tomato);
+}
+.frame-parent18,
+.group-parent6,
+.login-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.login-group {
+  align-items: flex-start;
+  gap: var(--gap-8xl);
+  cursor: pointer;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+.frame-parent18 {
+  position: absolute;
+  top: calc(50% - 265px);
+  left: calc(50% - 392px);
+  border-radius: var(--br-21xl);
+  background-color: var(--ios-ffffff);
+  width: 785px;
+  height: 540px;
+  overflow: hidden;
+  padding: var(--padding-73xl) 0;
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-41xl);
+}
+.frame-parent17 {
+  position: relative;
+  background-color: var(--color-royalblue-200);
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-royalblue-200);
+  font-family: var(--font-montserrat);
+}

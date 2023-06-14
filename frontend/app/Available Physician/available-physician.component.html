@@ -1,0 +1,15 @@
+<h2>Available Physicians</h2>
+
+<div *ngIf="loading" class="loader">Loading...</div>
+
+<div class="physician-container" *ngIf="!loading">
+  <div *ngFor="let doctor of doctors" class="doctor-card">
+    <img src="assets/doctor-image.jpg" alt="Doctor Image" class="doctor-image">
+    <div class="doctor-details">
+      <div class="doctor-name">{{ doctor.name }}</div>
+      <div class="doctor-speciality">{{ doctor.speciality }}</div>
+      <div class="doctor-address">{{ doctor.address }}</div>
+      <button (click)="requestConsultation(doctor)">Request Consultation</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+.doctor-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.consultation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.consultation-description {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: black;
+}
+
+.input-field {
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+}

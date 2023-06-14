@@ -1,0 +1,135 @@
+openapi: 3.0.0
+info:
+  title: Project API
+  version: 1.0.0
+servers:
+  - url: http://localhost:5000
+    description: Local development server
+paths:
+  /login:
+    post:
+      summary: User login
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+      responses:
+        '200':
+          description: Successful login
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  token:
+                    type: string
+        '400':
+          description: Invalid request
+        '401':
+          description: Unauthorized access
+  /userprovider:
+    get:
+      summary: Get user's provider information
+      parameters:
+        - name: token
+          in: header
+          description: User token
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful retrieval
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  providerId:
+                    type: string
+                  providerName:
+                    type: string
+                  speciality:
+                    type: string
+                  imageUrl:
+                    type: string
+                  street1:
+                    type: string
+                  street2:
+                    type: string
+                  city:
+                    type: string
+                  zip:
+                    type: string
+        '401':
+          description: Unauthorized access
+  /conversation:
+    post:
+      summary: Create a new conversation
+      parameters:
+        - name: token
+          in: header
+          description: User token
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                question:
+                  type: string
+                answer:
+                  type: string
+                summary:
+                  type: string
+                providerId:
+                  type: string
+      responses:
+        '200':
+          description: Successful conversation creation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  conversationId:
+                    type: string
+        '401':
+          description: Unauthorized access
+  /summary:
+    put:
+      summary: Update conversation summary
+      parameters:
+        - name: token
+          in: header
+          description: User token
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                conversationId:
+                  type: string
+                summary:
+                  type: string
+      responses:
+        '200':
+          description: Summary updated successfully
+        '401':
+          description: Unauthorized access

@@ -1,0 +1,235 @@
+.home-indicator-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 36px;
+}
+.home-indicator5 {
+  position: absolute;
+  bottom: 8px;
+  left: calc(50% - 67.5px);
+  border-radius: var(--br-81xl);
+  background-color: var(--color-darkslategray-300);
+  width: 134px;
+  height: 5px;
+}
+.home-indicator4 {
+  position: absolute;
+  top: 776px;
+  left: 0;
+  width: 375px;
+  height: 36px;
+}
+.button6 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.button-wrapper {
+  position: absolute;
+  top: 342px;
+  left: 20px;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-royalblue-300);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-127xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--ios-ffffff);
+}
+.rectangle6,
+.rectangle7 {
+  position: absolute;
+  height: 113.64%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: -13.64%;
+  left: 0;
+}
+.rectangle7 {
+  height: 100%;
+  bottom: 0;
+}
+.border4,
+.cap-icon4 {
+  position: absolute;
+  mix-blend-mode: normal;
+}
+.border4 {
+  top: 0;
+  right: 2.33px;
+  border-radius: 2.67px;
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 22px;
+  height: 11.33px;
+  opacity: 0.35;
+}
+.cap-icon4 {
+  top: 3.67px;
+  right: 0;
+  width: 1.33px;
+  height: 4px;
+  opacity: 0.4;
+}
+.capacity4 {
+  position: absolute;
+  top: 2px;
+  right: 4.33px;
+  border-radius: 1.33px;
+  background-color: var(--color-gray-200);
+  width: 18px;
+  height: 7.33px;
+}
+.battery4 {
+  position: absolute;
+  top: 17.33px;
+  right: 14.67px;
+  width: 24.33px;
+  height: 11.33px;
+}
+.wifi-icon4 {
+  position: relative;
+  width: 15.27px;
+  height: 10.97px;
+}
+.cellular-connection-icon4 {
+  position: relative;
+  width: 17px;
+  height: 10.67px;
+}
+.span8 {
+  letter-spacing: -0.28px;
+}
+.time-style4,
+.time4 {
+  position: absolute;
+  width: 54px;
+}
+.time4 {
+  top: calc(50% - 7.5px);
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+}
+.time-style4 {
+  top: 13px;
+  left: 21px;
+  height: 21px;
+}
+.iphone-xstatus-barsstatus-ba4 {
+  position: absolute;
+  top: calc(50% - 22px);
+  left: calc(50% - 187.5px);
+  width: 375px;
+  height: 44px;
+  overflow: hidden;
+}
+.top-bar6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 44px;
+}
+.login4 {
+  position: absolute;
+  top: 53px;
+  left: 20px;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  text-align: left;
+}
+.top-bar5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 88px;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+  font-family: var(--ios-medium-body);
+}
+.rounded-rectangle4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+}
+.email {
+  position: absolute;
+  top: 28.57%;
+  left: 16.72%;
+  line-height: 150%;
+}
+.sms-icon1 {
+  position: absolute;
+  height: 35.71%;
+  width: 5.97%;
+  top: 32.14%;
+  right: 86.87%;
+  bottom: 32.14%;
+  left: 7.16%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rounded-rectangle-parent1 {
+  position: absolute;
+  height: 6.9%;
+  width: 89.33%;
+  top: 18.97%;
+  right: 5.33%;
+  bottom: 74.14%;
+  left: 5.33%;
+  text-align: left;
+}
+.icon-eye-slash1,
+.icon-password1 {
+  position: absolute;
+  width: 5.97%;
+  top: calc(50% - 10px);
+  right: 7.16%;
+  left: 86.87%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 20px;
+}
+.icon-password1 {
+  right: 86.87%;
+  left: 7.16%;
+}
+.rounded-rectangle-parent2 {
+  position: absolute;
+  height: 6.9%;
+  width: 89.33%;
+  top: 27.59%;
+  right: 5.33%;
+  bottom: 65.52%;
+  left: 5.33%;
+  text-align: left;
+}
+.login3 {
+  position: relative;
+  background-color: var(--ios-ffffff);
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--ios-medium-body-size);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}

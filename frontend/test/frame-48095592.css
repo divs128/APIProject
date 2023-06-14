@@ -1,0 +1,157 @@
+.vector-icon5 {
+  position: relative;
+  width: 25px;
+  height: 25px;
+}
+.vector-parent4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.logo4 {
+  position: relative;
+  width: 109px;
+  height: 24px;
+}
+.logo-wrapper2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--ios-ffffff);
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-45xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.physician-available {
+  position: relative;
+  font-weight: 600;
+}
+.doctor-1-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 11.13px;
+  background-color: var(--ios-ffffff);
+  border: 1px solid var(--color-azure);
+  box-sizing: border-box;
+  width: 334px;
+  height: 354px;
+}
+.image-icon1 {
+  position: relative;
+  width: 302px;
+  height: 169px;
+  object-fit: cover;
+}
+.primary-care-physician1 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  color: var(--color-lightslategray);
+}
+.name {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-xl);
+}
+.iconlyboldlocation1 {
+  position: relative;
+  width: 9.21px;
+  height: 15px;
+}
+.bruce-b-downs {
+  margin: 0;
+}
+.bruce-b-downs-container {
+  position: relative;
+  font-weight: 500;
+}
+.iconlyboldlocation-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  color: var(--color-lightslategray);
+}
+.frame-icon {
+  position: relative;
+  width: 9.5px;
+  height: 7.5px;
+}
+.request-consultation-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) 0 0;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-7xs);
+  color: var(--color-royalblue-100);
+}
+.image-parent,
+.name-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.name-parent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+}
+.image-parent {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.doctor-11 {
+  position: relative;
+  width: 334px;
+  height: 354px;
+}
+.doctor-1-container,
+.physician-available-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.doctor-1-container {
+  font-size: var(--font-size-sm);
+}
+.physician-available-parent {
+  position: absolute;
+  top: 92px;
+  left: calc(50% - 167px);
+  gap: var(--gap-5xl);
+  cursor: pointer;
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+.frame-parent16 {
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-royalblue-100);
+  font-family: var(--font-montserrat);
+}

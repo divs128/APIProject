@@ -1,0 +1,23 @@
+<!--// Login with email and password fields and a submit button-->
+<!--// Add Login header to the top of the screen-->
+<!--// Validate email and password fields. Email must be a valid email address and password must be at least 6 characters long-->
+<!--// Email and Password container must be centered aligned and button should be at the bottom of the screen-->
+<!--// Text input fields should have a placeholder text of "Email" and "Password" respectively and should be aligned to the left of the screen and should have a border around them with a border radius of 5 and a border width of 1 and a border color of #000 (black) and a margin of 10 on all sides and a padding of 10 on all sides.-->
+<!--// button should have margin of 10 on all sides and a padding of 10 on all sides and a border radius of 5 and a background color of #000 (black) and should have a text color of #fff (white)-->
+<!--// on Submit event should validate the email and password fields and if they are valid, it should call the login function from the auth context and pass the email and password as arguments. If the login function returns an error, it should show the error message in an alert and if the login function is successful, it should navigate to the Home screen.-->
+<!--// Create a stylesheet for the design and use it in the component.-->
+<!--// use fetch api to make the login request to the server. The login endpoint is https://2378-49-36-137-22.ngrok-free.app/login. If the login is successful, it should save the token in the local storage and if the login is unsuccessful, it should show the error message in an alert.-->
+<!--// On Successful login, it should navigate to the Request screen.-->
+<!--// Add eye icon to the right of the password text input field. On press of the eye icon, it should toggle the password visibility.-->
+<!--// parse response from the server in fetch api call and get token from the response and save it in the async storage.-->
+<!--// save token in the async storage on successful login.-->
+
+<!DOCTYPE html>
+
+<h2>Login</h2>
+
+<div class="login-container">
+  <input type="text" [(ngModel)]="email" placeholder="Email" class="input-field">
+  <input type="password" [(ngModel)]="password" placeholder="Password" class="input-field">
+  <button (click)="submitLogin()">Login</button>
+</div>

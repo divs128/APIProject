@@ -1,0 +1,122 @@
+.image-6-icon {
+  width: 375px;
+  height: 2561px;
+  object-fit: cover;
+}
+.group-child5,
+.image-6-icon,
+.overlay1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.overlay1 {
+  background-color: var(--color-gray-200);
+  width: 375px;
+  height: 812px;
+  opacity: 0.7;
+}
+.group-child5 {
+  border-radius: var(--br-5xl);
+  background-color: var(--ios-ffffff);
+  width: 327px;
+  height: 344px;
+}
+.generating-health-summary1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 211px;
+}
+.taking-a-moment1 {
+  position: relative;
+  font-size: var(--ios-medium-body-size);
+  line-height: 22px;
+  color: var(--color-darkslategray-100);
+  display: inline-block;
+  width: 273px;
+}
+.loader-inner {
+  position: relative;
+  width: 22px;
+  height: 22px;
+}
+.loader2 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-11xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.generating-health-summary-group {
+  position: absolute;
+  top: 126px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.done-inner {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-lavender-100);
+}
+.done-inner,
+.done2,
+.icon2 {
+  position: absolute;
+  top: 0;
+}
+.icon2 {
+  left: 0;
+  border-radius: var(--br-53xl);
+  width: 102px;
+  height: 102px;
+  object-fit: cover;
+}
+.done2 {
+  height: 37.78%;
+  width: 37.36%;
+  right: 31.5%;
+  bottom: 62.22%;
+  left: 31.14%;
+}
+.frame-parent30 {
+  position: absolute;
+  top: 36px;
+  left: 27px;
+  width: 273px;
+  height: 270px;
+}
+.rectangle-parent4 {
+  position: relative;
+  width: 327px;
+  height: 344px;
+}
+.chat-with-doctor-inner1 {
+  position: absolute;
+  top: 158px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.chat-with-doctor2 {
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}

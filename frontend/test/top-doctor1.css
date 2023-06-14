@@ -1,0 +1,247 @@
+.rectangle3 {
+  position: absolute;
+  height: 116.28%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: -16.28%;
+  left: 0;
+}
+.vector-icon8 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.component-1 {
+  position: absolute;
+  top: 50px;
+  left: 21px;
+  width: 334px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.border2,
+.cap-icon2 {
+  position: absolute;
+  mix-blend-mode: normal;
+}
+.border2 {
+  top: 0;
+  right: 2.33px;
+  border-radius: 2.67px;
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 22px;
+  height: 11.33px;
+  opacity: 0.35;
+}
+.cap-icon2 {
+  top: 3.67px;
+  right: 0;
+  width: 1.33px;
+  height: 4px;
+  opacity: 0.4;
+}
+.capacity2 {
+  position: absolute;
+  top: 2px;
+  right: 4.33px;
+  border-radius: 1.33px;
+  background-color: var(--color-gray-200);
+  width: 18px;
+  height: 7.33px;
+}
+.battery2 {
+  position: absolute;
+  top: 17.33px;
+  right: 14.67px;
+  width: 24.33px;
+  height: 11.33px;
+}
+.wifi-icon2 {
+  position: relative;
+  width: 15.27px;
+  height: 10.97px;
+}
+.cellular-connection-icon2 {
+  position: relative;
+  width: 17px;
+  height: 10.67px;
+}
+.span6 {
+  letter-spacing: -0.28px;
+}
+.time-style2,
+.time2 {
+  position: absolute;
+  width: 54px;
+}
+.time2 {
+  top: calc(50% - 7.5px);
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+}
+.time-style2 {
+  top: 13px;
+  left: 21px;
+  height: 21px;
+}
+.iphone-xstatus-barsstatus-ba2 {
+  position: absolute;
+  top: calc(50% - 22px);
+  left: calc(50% - 187.5px);
+  width: 375px;
+  height: 44px;
+  overflow: hidden;
+}
+.top-bar3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 44px;
+}
+.top-bar2 {
+  position: relative;
+  width: 375px;
+  height: 86px;
+}
+.available-physician {
+  position: relative;
+  font-weight: 600;
+}
+.doctor-1-child1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 11.13px;
+  background-color: var(--ios-ffffff);
+  border: 1px solid var(--color-azure);
+  box-sizing: border-box;
+  width: 334px;
+  height: 354px;
+}
+.image-icon3 {
+  position: relative;
+  width: 302px;
+  height: 169px;
+  object-fit: cover;
+}
+.primary-care-physician3 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  color: var(--color-lightslategray);
+}
+.name1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-xl);
+}
+.iconlyboldlocation3 {
+  position: relative;
+  width: 9.21px;
+  height: 15px;
+}
+.bruce-b-downs2 {
+  margin: 0;
+}
+.bruce-b-downs-container1 {
+  position: relative;
+  font-weight: 500;
+}
+.iconlyboldlocation-parent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  color: var(--color-lightslategray);
+}
+.frame-child14 {
+  position: relative;
+  width: 9.5px;
+  height: 7.5px;
+}
+.request-consultation-parent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) 0 0;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-7xs);
+  color: var(--color-royalblue-100);
+}
+.image-group,
+.name-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.name-group {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+}
+.image-group {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.doctor-13 {
+  position: relative;
+  width: 334px;
+  height: 354px;
+  font-size: var(--font-size-sm);
+}
+.available-physician-parent,
+.top-bar-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.available-physician-parent {
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-inter);
+}
+.top-bar-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.top-doctor1 {
+  position: relative;
+  background-color: var(--ios-ffffff);
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+  font-family: var(--ios-medium-body);
+}

@@ -1,0 +1,300 @@
+.vector-icon4 {
+  position: relative;
+  width: 25px;
+  height: 25px;
+}
+.vector-parent3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.logo3 {
+  position: relative;
+  width: 109px;
+  height: 24px;
+}
+.logo-wrapper1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--ios-ffffff);
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-45xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--color-royalblue-100);
+  font-family: var(--font-montserrat);
+}
+.patient-information {
+  position: relative;
+  font-weight: 500;
+}
+.patient-information-wrapper {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-whitesmoke-200);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-10xs) var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.john-lenon {
+  position: relative;
+  font-weight: 600;
+}
+.john-lenon-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div,
+.ellipse-div {
+  position: relative;
+}
+.ellipse-div {
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-200);
+  width: 4px;
+  height: 4px;
+}
+.frame-parent10,
+.parent {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.parent {
+  flex-direction: row;
+  padding: var(--padding-11xs);
+  align-items: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-100);
+}
+.frame-parent10 {
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: var(--ios-medium-body-size);
+}
+.line {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-azure);
+  height: 1px;
+}
+.frame-parent9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.persistent-headache-pressure {
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+}
+.frame-wrapper3,
+.persistent-headache-pressure-wrapper {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.persistent-headache-pressure-wrapper {
+  flex-direction: row;
+  padding: var(--padding-11xs);
+  align-items: center;
+}
+.frame-wrapper3 {
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-100);
+}
+.allergic-to-penicillin {
+  flex: 1;
+  position: relative;
+}
+.frame-wrapper4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-100);
+}
+.possible-tension-headache {
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+  width: 302px;
+  flex-shrink: 0;
+}
+.frame-parent8 {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--ios-ffffff);
+  border: 1px solid var(--color-azure);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.please-confirm-or {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 18px;
+  color: var(--color-darkslategray-100);
+}
+.acknowledgement-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frame-child6 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.e {
+  color: var(--color-darkslategray-200);
+}
+.i-agree-to-the {
+  color: var(--color-dimgray-100);
+}
+.terms-of-service {
+  font-weight: 500;
+}
+.i-agree-to-container {
+  position: relative;
+  line-height: 140%;
+}
+.frame-parent14,
+.group-parent4 {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.group-parent4 {
+  width: 334px;
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--font-size-smi);
+  color: var(--color-royalblue-100);
+}
+.frame-parent14 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: var(--ios-medium-body-size);
+}
+.frame-child7 {
+  position: relative;
+  width: 800px;
+  height: 1px;
+}
+.vector-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.talk-to-salus {
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+}
+.send-consultation-request-wrapper,
+.talk-to-salus-wrapper {
+  border-radius: var(--br-13xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.talk-to-salus-wrapper {
+  background-color: var(--ios-ffffff);
+  border: 1px solid var(--color-royalblue-100);
+  padding: var(--padding-6xs) var(--padding-5xl);
+}
+.send-consultation-request-wrapper {
+  background-color: var(--color-royalblue-100);
+  padding: var(--padding-6xs) var(--padding-xl);
+  cursor: pointer;
+  color: var(--ios-ffffff);
+}
+.frame-parent15,
+.frame-parent7 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-parent15 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-royalblue-100);
+}
+.frame-parent7 {
+  position: absolute;
+  top: 155px;
+  left: calc(50% - 400px);
+  width: 800px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-xs);
+}
+.frame-child8 {
+  position: relative;
+  width: 40px;
+  height: 37.83px;
+}
+.group-parent5 {
+  position: absolute;
+  top: 93px;
+  left: 320px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--ios-default-title-2-size);
+}
+.frame-child9 {
+  position: absolute;
+  top: 310px;
+  left: 1420px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro-100);
+  width: 6px;
+  height: 72px;
+}
+.frame-parent6 {
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  width: 100%;
+  height: 903px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}

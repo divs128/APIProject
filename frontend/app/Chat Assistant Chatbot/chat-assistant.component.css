@@ -1,0 +1,68 @@
+h2 {
+  text-align: center;
+}
+
+.chat-container {
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.doctor-message {
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.patient-message {
+  background-color: #d1dff5;
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+.input-container {
+  display: flex;
+  margin: 10px;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.loader {
+  text-align: center;
+  margin-top: 10px;
+}

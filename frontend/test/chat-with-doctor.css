@@ -1,0 +1,128 @@
+.image-5-icon,
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 812px;
+}
+.image-5-icon {
+  object-fit: cover;
+}
+.overlay {
+  background-color: var(--color-gray-200);
+  opacity: 0.7;
+}
+.button-item,
+.group-child4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  background-color: var(--ios-ffffff);
+  width: 327px;
+  height: 447px;
+}
+.button-item {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-royalblue-100);
+}
+.got-it1 {
+  position: absolute;
+  top: 28.57%;
+  left: 37.04%;
+  line-height: 150%;
+  font-weight: 600;
+}
+.button4 {
+  position: absolute;
+  height: 12.53%;
+  width: 55.96%;
+  top: 78.52%;
+  right: 22.02%;
+  bottom: 8.95%;
+  left: 22.02%;
+}
+.request-sent1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 211px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.dr-marcus-horizon3 {
+  font-weight: 600;
+  font-family: var(--font-inter);
+}
+.sent-to-dr-marcus-horizon {
+  margin: 0;
+}
+.your-health-summary-container1 {
+  position: relative;
+  font-size: var(--ios-medium-body-size);
+  line-height: 22px;
+  color: var(--color-darkslategray-100);
+  display: inline-block;
+  width: 273px;
+}
+.request-sent-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.frame-wrapper6 {
+  position: absolute;
+  top: 198px;
+  left: 27px;
+  width: 273px;
+  height: 124px;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+}
+.done-icon1 {
+  position: absolute;
+  height: 22.82%;
+  width: 31.19%;
+  top: 12.53%;
+  right: 34.56%;
+  bottom: 64.65%;
+  left: 34.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangle-parent3 {
+  position: relative;
+  width: 327px;
+  height: 447px;
+}
+.chat-with-doctor-inner {
+  position: absolute;
+  top: 158px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.chat-with-doctor {
+  position: relative;
+  background-color: var(--ios-ffffff);
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--ios-medium-body-size);
+  color: var(--ios-ffffff);
+  font-family: var(--font-inter);
+}

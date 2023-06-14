@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-montserrat: Montserrat;
+  --font-inherit: inherit;
+  --ios-medium-body: "SF Pro Text";
+  --ios-default-title-2: "SF Pro Display";
+
+  /* font sizes */
+  --ios-medium-body-size: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --ios-default-title-2-size: 22px;
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --font-size-smi: 13px;
+  --font-size-7xl: 26px;
+  --font-size-mid: 17px;
+
+  /* Colors */
+  --color-royalblue-100: #0957de;
+  --color-royalblue-200: #0746b2;
+  --color-royalblue-300: rgba(9, 87, 222, 0.4);
+  --ios-ffffff: #fff;
+  --color-gray-100: #8d9093;
+  --color-gray-200: #101623;
+  --color-whitesmoke-100: #f9fafb;
+  --color-whitesmoke-200: #f2f5f7;
+  --color-gainsboro-100: #d7dee2;
+  --color-gainsboro-200: #dadada;
+  --color-lightslategray: #8f97a1;
+  --color-darkslategray-100: #494c54;
+  --color-darkslategray-200: #3b4453;
+  --ios-3a3b3d: #3a3b3d;
+  --color-darkslategray-300: #232b43;
+  --color-lavender-100: #d2e2f1;
+  --color-lavender-200: #d1dff5;
+  --color-azure: #e8f3f1;
+  --color-dimgray-100: #555;
+  --ios-50555c: #50555c;
+  --color-tomato: #ff5c5c;
+  --ios-000000: #000;
+  --ios-alfa-ccced3-76: rgba(204, 206, 211, 0.76);
+  --ios-adb3bc: #adb3bc;
+
+  /* Gaps */
+  --gap-41xl: 60px;
+  --gap-8xl: 27px;
+  --gap-xl: 20px;
+  --gap-5xs: 8px;
+  --gap-base: 16px;
+  --gap-21xl: 40px;
+  --gap-13xl: 32px;
+  --gap-3xs: 10px;
+  --gap-7xs: 6px;
+  --gap-sm: 14px;
+  --gap-xs: 12px;
+  --gap-9xl: 28px;
+  --gap-5xl: 24px;
+  --gap-9xs: 4px;
+  --gap-8xs: 5px;
+
+  /* Paddings */
+  --padding-73xl: 92px;
+  --padding-base: 16px;
+  --padding-45xl: 64px;
+  --padding-7xs: 6px;
+  --padding-11xs: 2px;
+  --padding-9xs: 4px;
+  --padding-2xl: 21px;
+  --padding-6xs: 7px;
+  --padding-xl: 20px;
+  --padding-5xl: 24px;
+  --padding-5xs: 8px;
+  --padding-10xs: 3px;
+  --padding-3xs: 10px;
+  --padding-12xs: 1px;
+  --padding-101xl: 120px;
+  --padding-4xs: 9px;
+  --padding-127xl: 146px;
+  --padding-2xs: 11px;
+
+  /* border radiuses */
+  --br-21xl: 40px;
+  --br-13xl: 32px;
+  --br-5xl: 24px;
+  --br-11xl: 30px;
+  --br-5xs: 8px;
+  --br-53xl: 72px;
+  --br-xs-1: 11.1px;
+  --br-xs: 12px;
+  --br-9xs: 4px;
+  --br-81xl: 100px;
+  --br-11xs-3: 1.3px;
+  --br-10xs-7: 2.7px;
+  --br-8xs: 5px;
+  --br-8xs-6: 4.6px;
+
+  /* Effects */
+  --ios-blur-20: blur(20px);
+  --ios-key-box-shadow-light: 0px 1px 0px #898a8d;
+}

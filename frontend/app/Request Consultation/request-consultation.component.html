@@ -1,0 +1,14 @@
+<h2>Request Consultation</h2>
+
+<img src="assets/doctor-image.jpg" alt="Doctor Image" class="doctor-image">
+
+<div class="consultation-container">
+  <div class="consultation-description">Please enter your name and insurance ID to request a consultation</div>
+  <div class="input-field">
+    <input type="text" [(ngModel)]="name" placeholder="Name">
+  </div>
+  <div class="input-field">
+    <input type="text" [(ngModel)]="insuranceId" placeholder="Insurance ID">
+  </div>
+  <button (click)="submitRequest()">Submit Request</button>
+</div>
