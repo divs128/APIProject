@@ -4,10 +4,32 @@ from models.conversation_history import ConversationHistory
 from models.user import User
 
 """
- Defines the /conversation route for creating a new conversation.
- It receives the question, answer, summary, provider ID, and user ID from the token. 
- It creates a new conversation record and stores the conversation history.
- 
+Creates a new conversation.
+
+URL: /conversation
+Method: POST
+
+Request Body:
+{
+  "question": "The question asked by the user",
+  "answer": "The answer provided by the provider",
+  "summary": "The summary of the conversation",
+  "provider_id": "The ID of the conversation provider",
+}
+
+Request Headers:
+{
+  "Authorization": "Bearer <user_token>"
+}
+
+Response Body:
+{
+  "conversation_id": "The ID of the created conversation"
+}
+
+Response Status:
+- 201: Conversation created successfully
+
 """
 conversation_bp = Blueprint('conversation', __name__)
 @conversation_bp.route('/conversation', methods=['POST'])
