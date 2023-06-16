@@ -6,9 +6,50 @@ from models.provider_address import ProviderAddress
 from models.user import User
 
 """
-Defines the /userprovider route for retrieving user-provider details. 
-It requires a token for authentication, decodes the token, 
-and fetches the corresponding user-provider information from the database
+Retrieves user-provider details.
+
+URL: /userprovider
+Method: GET
+
+Request Headers:
+- Authorization: The user's access token
+
+Response Body (on successful retrieval):
+{
+  "provider_id": "The ID of the provider",
+  "provider_name": "The name of the provider",
+  "speciality": "The specialty of the provider",
+  "image_url": "The URL of the provider's image",
+  "street1": "The first line of the provider's address",
+  "street2": "The second line of the provider's address",
+  "city": "The city of the provider's address",
+  "zip": "The ZIP code of the provider's address"
+}
+
+Response Body (when user provider not found):
+{
+  "message": "User provider not found"
+}
+
+Response Body (when provider not found):
+{
+  "message": "Provider not found"
+}
+
+Response Body (when address not found):
+{
+  "message": "Address not found"
+}
+
+Response Body (when provider address not found):
+{
+  "message": "Provider address not found"
+}
+
+Response Status:
+- 200: User-provider details retrieved successfully
+- 404: User provider not found, Provider not found, Address not found, or Provider address not found
+
 """
 
 userprovider_bp = Blueprint('userprovider', __name__)
