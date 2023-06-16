@@ -2,9 +2,30 @@ from flask import Blueprint, request
 from models.conversation import Conversation
 
 """
-Defines the /summary route for updating the summary of a conversation. 
-It receives the conversation ID and the updated summary, and 
-updates the conversation record in the database
+Updates the summary of a conversation.
+
+URL: /summary
+Method: PUT
+
+Request Body:
+{
+  "conversation_id": "The ID of the conversation",
+  "summary": "The updated summary"
+}
+
+Response Body (on successful update):
+{
+  "status": "Summary updated successfully"
+}
+
+Response Body (when conversation not found):
+{
+  "message": "Conversation not found"
+}
+
+Response Status:
+- 200: Summary updated successfully
+- 404: Conversation not found
 
 """
 summary_bp = Blueprint('summary', __name__)
