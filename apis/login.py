@@ -2,8 +2,31 @@ from flask import Blueprint, request
 from models.user import User
 
 """
-Defines the /login route for user authentication. It receives the email and password,
- verifies them against the database, and returns a token if authentication is successful
+Performs user authentication and generates a token.
+
+URL: /login
+Method: POST
+
+Request Body:
+{
+  "email": "The user's email",
+  "password": "The user's password"
+}
+
+Response Body (on successful authentication):
+{
+  "token": "The generated authentication token"
+}
+
+Response Body (on failed authentication):
+{
+  "message": "Invalid email or password"
+}
+
+Response Status:
+- 200: Authentication successful
+- 401: Invalid email or password
+
 """
 
 login_bp = Blueprint('login', __name__)
