@@ -1,8 +1,20 @@
 from database.database import cursor, conn
 
 """
-Represents the conversation table and provides methods for creating 
-new conversations and retrieving conversation details
+Represents the conversation table and provides methods for creating new conversations and retrieving conversation details.
+
+Attributes:
+- id: The ID of the conversation
+- user_id: The ID of the user associated with the conversation
+- provider_id: The ID of the provider associated with the conversation
+- summary: The summary of the conversation
+- created_on: The timestamp indicating when the conversation was created
+- status: The status of the conversation
+
+Methods:
+- create_conversation(question, answer, summary, provider_id, user_id): Creates a new conversation record in the database
+- get_conversation_by_id(conversation_id): Retrieves a conversation object by its ID from the database
+
 """
 
 
@@ -17,6 +29,19 @@ class Conversation:
 
     @staticmethod
     def create_conversation(question, answer, summary, provider_id, user_id):
+         """
+        Creates a new conversation record in the database.
+
+        Parameters:
+        - question: The question associated with the conversation
+        - answer: The answer associated with the conversation
+        - summary: The summary of the conversation
+        - provider_id: The ID of the provider associated with the conversation
+        - user_id: The ID of the user associated with the conversation
+
+        Returns:
+        - The ID of the created conversation
+        """
         try:
             conn.start_transaction()
 
@@ -39,6 +64,15 @@ class Conversation:
 
     @staticmethod
     def get_conversation_by_id(conversation_id):
+        """
+        Retrieves a conversation object by its ID from the database.
+
+        Parameters:
+        - conversation_id: The ID of the conversation to retrieve
+
+        Returns:
+        - A Conversation object if the conversation is found, None otherwise
+        """
         query = "SELECT id, user_id, provider_id, summary, created_on, status FROM conversation WHERE id = %s"
         cursor.execute(query, (conversation_id,))
         result = cursor.fetchone()
